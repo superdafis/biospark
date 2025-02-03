@@ -1,0 +1,80 @@
+body {
+    overflow-x: hidden;
+  min-height: 2000px;
+}
+
+.navbar .navbar-brand {
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.navbar .navbar-nav a {
+  font-size: 1.4rem;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.jumbotron {
+  background-image: url("./img/sungai.gif");
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: darken;
+  background-size: cover;
+  height: 640px;
+}
+
+.jumbotron h2 {
+  font-size: 8vmax;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+
+#anggota {
+  padding-top: 7.5rem;
+  margin-bottom: 6rem;
+}
+
+#anggota .col:nth-child(1) {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+}
+#anggota .nama-anggota {
+    display: flex;
+    height: 100px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-size: 1.3rem;
+    margin: 20px;
+}
+
+#materi {
+    padding-top: 7.5rem;
+}
+
+#ekosistem {
+    margin-top: 100px;
+}
+
+#ekosistem .darat {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#ekosistem .perairan {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#ekosistem .ekosistem-buatan {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
